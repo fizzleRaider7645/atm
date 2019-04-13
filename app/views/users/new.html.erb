@@ -1,0 +1,7 @@
+<h1>$ ATM $</h1>
+
+<%= form_for :person do |f| %>
+  Enter Your Account Number : <%= f.text_field :account_number %><br />
+  Enter Your Password : <%= f.text_field :last_name %><br />
+  <%= f.submit 'Log In' %>
+<% end %>
